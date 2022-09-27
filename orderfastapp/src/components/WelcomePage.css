@@ -1,0 +1,97 @@
+
+  
+   
+   .bg-img {
+    background-image: url("https://b.zmtcdn.com/data/pictures/4/19586034/1b5f4d46da15131e47f97658193d6709.jpg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } 
+   
+  .container {
+    position:absolute;
+    /* margin-top: 100px; */
+    right: 0;
+   
+    width: 350px; 
+    height:450px;
+    padding-top: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color:white;
+    border-radius: 15px;
+    margin-top: 180px;
+    margin-right: 150px;
+    
+  }
+  
+  .btn {
+    background-color: darkorange;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin-right:15px;
+    
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .appname{
+    color: darkorange;
+    font-weight: 800;
+    margin-top: 0px;
+    font-size:35px; 
+    text-align: center; 
+  }
+  
+  .welcome{
+    margin-top:35px;
+    margin-bottom: 0px;
+    color:rgb(26, 25, 25);
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .details{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    line-height:27px;
+    text-align:justify;
+    text-align-last: center;
+    margin-right:35px;
+    margin-left:35px;
+    word-spacing: 1px;
+    color:rgb(132, 132, 132);
+  }
+  
+  a{
+    color:darkorange;
+    text-decoration: none;
+  }
+ 
+  #text1{
+    color:rgb(132, 132, 132);
+    text-align:center;
+    font-size:smaller;
+  }
+ 
+  @media (min-width: 650px ) {
+    .bg-img {
+        background-position: center center;
+        
+    }
+
+    .container{
+        align-items: flex-end;
+        justify-content: center;
+    }
+}

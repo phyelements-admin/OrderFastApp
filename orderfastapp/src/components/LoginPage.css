@@ -1,0 +1,139 @@
+
+.bg-img {
+    background-image: url("https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?w=1060&t=st=1663907350~exp=1663907950~hmac=9cd5b442be800bd1134f4f8e85f78f6519f0b4a83230eaeeb65b45d8bf904f2b");
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    width: 550px;
+    height: 600px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 0em 1em;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+  
+  }
+  input[type=text], input[type=password] {
+    width: 60%;
+    height:15px;
+    padding: 12px;
+    margin: 5px 80px 10px 80px;
+    border: solid rgb(242, 241, 241) 1px;
+    background:white;
+    border-radius: 7px;
+    box-shadow: 3px 2px 2px #d3d2d2;
+    font-weight:750;
+    color: black;
+       
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(253, 253, 253);
+    outline: none;
+  }
+  .btn {
+    background-color: darkorange;
+    color: white;
+    padding: 16px 16px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 5px;
+    width: 60%;
+    font-weight: 500;
+    margin-top:45px;
+    margin-bottom: 0px;
+    /* 
+    margin-left: 130px; */
+    font-size:medium;
+    
+
+    
+  }
+  .btn:hover {
+    opacity: 1;
+    color:white;
+  }
+  
+  .reg{
+    float:right;
+    display:inline;
+    /* margin-left:10px;
+    padding-right:0px; */
+    }
+
+   
+  .appName{
+    
+    color: darkorange;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-right: 0px;
+    font-size:42px;  
+  }
+  .heading{
+    font-size:40px;
+    margin-top:0em;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 500px) {
+    .container{
+        width: 420px;
+        height: 600px;
+        
+    }
+    .btn {
+        background-color: darkorange;
+        color: white;
+        padding: 16px 16px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+        border-radius: 5px;
+        width: 60%;
+        font-weight: 500;
+        
+        margin-bottom: 0px;
+        /* 
+        margin-left: 130px; */
+        font-size:small;  
+      }
+      input[type=text], input[type=password] {
+        width: 50%;
+        height:10px;
+        padding: 12px;
+        margin: 5px 80px 10px 80px;
+        border: solid rgb(242, 241, 241) 1px;
+        background:white;
+        border-radius: 7px;
+        box-shadow: 3px 2px 2px #d3d2d2;
+        font-weight:750;
+        color: black;
+           
+      }
+      .appName{
+        font-size:32px;
+        margin-left: 30px;  
+      }
+      .heading{
+        font-size:30px;
+        
+    }
+}
